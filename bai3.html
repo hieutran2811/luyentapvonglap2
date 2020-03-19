@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+//hinh1
+    for(let i=1;i<=6;i++){
+        for (let j=1;j<i;j++){
+            document.write("*");
+        }
+        document.write("<br/>");
+    }
+    document.write("<br/>");
+
+//hinh2
+    for (let a=6;a>=1;a--){
+        for (let b=1;b<a;b++){
+            document.write("*");
+        }
+        document.write("<br/>");
+    }
+
+
+//hinh3
+    for (let i=1;i<=5;i++){
+        for(let j=5; j>i; j--){
+            document.write("\t&nbsp;");
+        }
+        for (let k=0;k<i;k++){
+            document.write("*")
+        }
+        document.write("<br>")
+    }
+    document.write("<br>");
+
+    //hinh4
+    for(let i=1;i<=5;i++){
+        for(let j=5;j>=i;j--){
+            document.write("*");
+        }
+        document.write("<br/>");
+        for (let x=0;x<i;x++){
+            document.write("\t&nbsp;");
+        }
+    }
+</script>
+</body>
+</html>
